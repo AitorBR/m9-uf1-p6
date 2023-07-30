@@ -1,0 +1,59 @@
+#center {}
+
+caption {
+    color: white;
+}
+
+th {
+    color: green;
+}
+
+.cal {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    border-width: 3px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+td {
+    height: 100px;
+    width: 4%;
+    vertical-align: top;
+}
+
+
+/*https://lineadecodigo.com/css/color-a-las-columnas-de-una-tabla-con-css/*/
+
+tr:nth-child(even) {
+    background-color: #cdbc79;
+}
+
+.weekend {
+    background-color: green;
+    opacity: 0.2;
+}
+
+td:nth-child(7) {
+    color: red;
+}
+
+span {
+    visibility: hidden;
+}
+
+td:active>span {
+    color: purple;
+    visibility: visible;
+}
+
+td:hover {
+    color: aqua;
+}
+
+@media (min-width: 900px) {
+    section {
+        height: 570px;
+    }
+}
